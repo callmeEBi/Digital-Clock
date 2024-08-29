@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #9575cd;
+  font-family: poppins;
+}
+
+.time__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  font-size: 4rem;
+}
+
+.box {
+  width: 130px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 10px 3px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-out;
+}
+.colon {
+  color: #fff;
+}
